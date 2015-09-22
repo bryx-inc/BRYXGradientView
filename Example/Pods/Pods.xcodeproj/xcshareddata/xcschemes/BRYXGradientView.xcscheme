@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'B556FF3EEB9CFCF0440F15B6'
+               BlueprintIdentifier = 'A27FE4C83D6D96207C6030C1'
                BlueprintName = 'BRYXGradientView'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'BRYXGradientView.framework'>

@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  BRYXGradientView: 8c6a7afeae33ae325aa25bfa9d92a295be863d5f
+  BRYXGradientView: 0e6f92e535aa63fe509ea0d3598248201af8fec3
 
 COCOAPODS: 0.39.0.beta.4

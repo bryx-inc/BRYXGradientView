@@ -4,11 +4,6 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>BRYXGradientView-BRYXGradientView.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>BRYXGradientView.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -22,12 +17,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1CC08EAC7CC9F972289FCA3ABA52D331</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>5B484F2993659A5291ECF94E25704765</key>
+		<key>B1C434008125FDA3EBEB95DB020B1ED8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
