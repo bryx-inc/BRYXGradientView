@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06704BBB6189D078F1C090B2F2FD18DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 922EF2817CE86773C91FA73E51135AD1 /* Foundation.framework */; };
+		0689D3FA2A28592BBE60A06605C08B6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 922EF2817CE86773C91FA73E51135AD1 /* Foundation.framework */; };
+		33F19FDA47A25A558CB7C83A1A637F14 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC999480DE53672909A1439EB698104 /* GradientView.swift */; };
+		4AEEB887FA4CC18AE42CA44A47F5086C /* BRYXGradientView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E84E346BEAD1E752A01C5D5C9C78A4EC /* BRYXGradientView.bundle */; };
+		B51B4393C5DC5D0B5F5B0B646AB779BD /* Pods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BCC458FDD5F692BBB2BFC64BB5701FC /* Pods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5E47B086EDD3A7DE0B5663AF0D898AA /* BRYXGradientView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F3B699A846381E3A72AE703ADF84C1 /* BRYXGradientView-dummy.m */; };
+		C201A81D6606C5A3CB18CD0F222DE84A /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */; };
+		C3A0DDBD12296099CB70F835C4D9F1F6 /* BRYXGradientView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 229BFE701C63272EA3035653E03F8271 /* BRYXGradientView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E9C8B48E16E0F5A930A376096DEF643 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CC08EAC7CC9F972289FCA3ABA52D331;
+			remoteInfo = "BRYXGradientView-BRYXGradientView";
+		};
+		29F3F056EB4CCD7E35B4CB774EAE8E24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B484F2993659A5291ECF94E25704765;
+			remoteInfo = BRYXGradientView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08AC2260134186E6EABEF82BF58570E4 /* BRYXGradientView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BRYXGradientView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		229BFE701C63272EA3035653E03F8271 /* BRYXGradientView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BRYXGradientView-umbrella.h"; sourceTree = "<group>"; };
+		287E789E258C4D37528FD737B8D8D5C7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BCC458FDD5F692BBB2BFC64BB5701FC /* Pods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-umbrella.h"; sourceTree = "<group>"; };
+		338A590CAA7070C4B3F42ED02F17708A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		79A9DEDC89FE8336BF5FEDAAF75BF7FC /* Pods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Pods.modulemap; sourceTree = "<group>"; };
+		79F3B699A846381E3A72AE703ADF84C1 /* BRYXGradientView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BRYXGradientView-dummy.m"; sourceTree = "<group>"; };
+		87B213035BAC5F75386F62D3C75D2342 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		922EF2817CE86773C91FA73E51135AD1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A8E876B64676A1B1D9DA70BAE2446BCF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BBC999480DE53672909A1439EB698104 /* GradientView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		C18961D91C3375FCF59ED8AE91EC5764 /* BRYXGradientView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BRYXGradientView-prefix.pch"; sourceTree = "<group>"; };
+		C2821ED90777FC38F7C1B9BD9E884308 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBC0F7C552B739C909B650A0F42F7F38 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		D0405803033A2A777B8E4DFA0C1800ED /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E7F21354943D9F42A70697D5A5EF72E9 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
+		E8446514FBAD26C0E18F24A5715AEF67 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E84E346BEAD1E752A01C5D5C9C78A4EC /* BRYXGradientView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BRYXGradientView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA8A43822C2421CC894F059273A37D24 /* BRYXGradientView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BRYXGradientView.xcconfig; sourceTree = "<group>"; };
+		F84FAAD55C77D4241485621CE7DD9862 /* BRYXGradientView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = BRYXGradientView.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A6E8AFCB9D6755E311F230C2F4EEF98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06704BBB6189D078F1C090B2F2FD18DF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A961382F4AF2A78B5534BA34F747E2A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB4F55A3544742439214C1C7CD6D79CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0689D3FA2A28592BBE60A06605C08B6E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				922EF2817CE86773C91FA73E51135AD1 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		75D98FF52E597A11900E131B6C4E1ADA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8446514FBAD26C0E18F24A5715AEF67 /* Info.plist */,
+				79A9DEDC89FE8336BF5FEDAAF75BF7FC /* Pods.modulemap */,
+				D0405803033A2A777B8E4DFA0C1800ED /* Pods-acknowledgements.markdown */,
+				87B213035BAC5F75386F62D3C75D2342 /* Pods-acknowledgements.plist */,
+				894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */,
+				E7F21354943D9F42A70697D5A5EF72E9 /* Pods-frameworks.sh */,
+				CBC0F7C552B739C909B650A0F42F7F38 /* Pods-resources.sh */,
+				2BCC458FDD5F692BBB2BFC64BB5701FC /* Pods-umbrella.h */,
+				338A590CAA7070C4B3F42ED02F17708A /* Pods.debug.xcconfig */,
+				A8E876B64676A1B1D9DA70BAE2446BCF /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				A4A51DEEEEB574907EA8A0BDD8F0890A /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				F866E0580C7E1C64C61F3A4B5C4CA110 /* Products */,
+				B7B80995527643776607AFFA75B91E24 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9965FC5C45B3780E7F3D1538DAA59B4B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BBC999480DE53672909A1439EB698104 /* GradientView.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A296AFF1C874458CB9B18420076A08A1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F84FAAD55C77D4241485621CE7DD9862 /* BRYXGradientView.modulemap */,
+				EA8A43822C2421CC894F059273A37D24 /* BRYXGradientView.xcconfig */,
+				79F3B699A846381E3A72AE703ADF84C1 /* BRYXGradientView-dummy.m */,
+				C18961D91C3375FCF59ED8AE91EC5764 /* BRYXGradientView-prefix.pch */,
+				229BFE701C63272EA3035653E03F8271 /* BRYXGradientView-umbrella.h */,
+				287E789E258C4D37528FD737B8D8D5C7 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BRYXGradientView";
+			sourceTree = "<group>";
+		};
+		A4A51DEEEEB574907EA8A0BDD8F0890A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F9BCD0A8F3C5091F68568685E162E2ED /* BRYXGradientView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B7B80995527643776607AFFA75B91E24 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				75D98FF52E597A11900E131B6C4E1ADA /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E768F7BD5E7447CE2E12EBA36C45366A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9965FC5C45B3780E7F3D1538DAA59B4B /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		F866E0580C7E1C64C61F3A4B5C4CA110 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E84E346BEAD1E752A01C5D5C9C78A4EC /* BRYXGradientView.bundle */,
+				08AC2260134186E6EABEF82BF58570E4 /* BRYXGradientView.framework */,
+				C2821ED90777FC38F7C1B9BD9E884308 /* Pods.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9BCD0A8F3C5091F68568685E162E2ED /* BRYXGradientView */ = {
+			isa = PBXGroup;
+			children = (
+				E768F7BD5E7447CE2E12EBA36C45366A /* Pod */,
+				A296AFF1C874458CB9B18420076A08A1 /* Support Files */,
+			);
+			name = BRYXGradientView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7298C73EC8F0F58C415821854330490D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3A0DDBD12296099CB70F835C4D9F1F6 /* BRYXGradientView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C900D9C8D3CDCAE7C7718BA5CA8A587 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B51B4393C5DC5D0B5F5B0B646AB779BD /* Pods-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1CC08EAC7CC9F972289FCA3ABA52D331 /* BRYXGradientView-BRYXGradientView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F934241A1056FDE6C80A74D5FE4320D0 /* Build configuration list for PBXNativeTarget "BRYXGradientView-BRYXGradientView" */;
+			buildPhases = (
+				1CD26CE0534177D2A8F9532578F66CE9 /* Sources */,
+				A961382F4AF2A78B5534BA34F747E2A3 /* Frameworks */,
+				B5F71A228ACB588DE371A84E55B1D2AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BRYXGradientView-BRYXGradientView";
+			productName = "BRYXGradientView-BRYXGradientView";
+			productReference = E84E346BEAD1E752A01C5D5C9C78A4EC /* BRYXGradientView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		5B484F2993659A5291ECF94E25704765 /* BRYXGradientView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12729A8A4D11D24EE4EFFA4B93B43CBE /* Build configuration list for PBXNativeTarget "BRYXGradientView" */;
+			buildPhases = (
+				178EDB052BB01CA7EBAAA125EB06F467 /* Sources */,
+				0A6E8AFCB9D6755E311F230C2F4EEF98 /* Frameworks */,
+				E0708F17C22908E9A6D442C715F1445C /* Resources */,
+				7298C73EC8F0F58C415821854330490D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11A3B9F1DC86093208DE136B01C2556E /* PBXTargetDependency */,
+			);
+			name = BRYXGradientView;
+			productName = BRYXGradientView;
+			productReference = 08AC2260134186E6EABEF82BF58570E4 /* BRYXGradientView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CB199719BD34072F16265FFAB139F622 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A7CB874448B8AB8384F685F5C672E57 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				47F57B909C38FA745CCA671ABCDEEE89 /* Sources */,
+				DB4F55A3544742439214C1C7CD6D79CB /* Frameworks */,
+				8C900D9C8D3CDCAE7C7718BA5CA8A587 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75825475817C5E42263D61123EC5638B /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = C2821ED90777FC38F7C1B9BD9E884308 /* Pods.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F866E0580C7E1C64C61F3A4B5C4CA110 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B484F2993659A5291ECF94E25704765 /* BRYXGradientView */,
+				1CC08EAC7CC9F972289FCA3ABA52D331 /* BRYXGradientView-BRYXGradientView */,
+				CB199719BD34072F16265FFAB139F622 /* Pods */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5F71A228ACB588DE371A84E55B1D2AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0708F17C22908E9A6D442C715F1445C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AEEB887FA4CC18AE42CA44A47F5086C /* BRYXGradientView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		178EDB052BB01CA7EBAAA125EB06F467 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5E47B086EDD3A7DE0B5663AF0D898AA /* BRYXGradientView-dummy.m in Sources */,
+				33F19FDA47A25A558CB7C83A1A637F14 /* GradientView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CD26CE0534177D2A8F9532578F66CE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F57B909C38FA745CCA671ABCDEEE89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C201A81D6606C5A3CB18CD0F222DE84A /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11A3B9F1DC86093208DE136B01C2556E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "BRYXGradientView-BRYXGradientView";
+			target = 1CC08EAC7CC9F972289FCA3ABA52D331 /* BRYXGradientView-BRYXGradientView */;
+			targetProxy = 0E9C8B48E16E0F5A930A376096DEF643 /* PBXContainerItemProxy */;
+		};
+		75825475817C5E42263D61123EC5638B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BRYXGradientView;
+			target = 5B484F2993659A5291ECF94E25704765 /* BRYXGradientView */;
+			targetProxy = 29F3F056EB4CCD7E35B4CB774EAE8E24 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10768C7B337777D858B5FC841F7F9F40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8E876B64676A1B1D9DA70BAE2446BCF /* Pods.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		393428D5B36C67A0168100E89C8B6431 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA8A43822C2421CC894F059273A37D24 /* BRYXGradientView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BRYXGradientView/BRYXGradientView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BRYXGradientView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BRYXGradientView/BRYXGradientView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = BRYXGradientView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		488C4D0AE4FE9644A9C85B3F951D77AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA8A43822C2421CC894F059273A37D24 /* BRYXGradientView.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = BRYXGradientView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A007DF7033860A9022EE1AD06C722A50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA8A43822C2421CC894F059273A37D24 /* BRYXGradientView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BRYXGradientView/BRYXGradientView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BRYXGradientView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BRYXGradientView/BRYXGradientView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = BRYXGradientView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AFE51D66D129DF305E34C7AC4E4A446B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 338A590CAA7070C4B3F42ED02F17708A /* Pods.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E1444E089F88ED20C6A4CCFAEAB034A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA8A43822C2421CC894F059273A37D24 /* BRYXGradientView.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = BRYXGradientView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12729A8A4D11D24EE4EFFA4B93B43CBE /* Build configuration list for PBXNativeTarget "BRYXGradientView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A007DF7033860A9022EE1AD06C722A50 /* Debug */,
+				393428D5B36C67A0168100E89C8B6431 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A7CB874448B8AB8384F685F5C672E57 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFE51D66D129DF305E34C7AC4E4A446B /* Debug */,
+				10768C7B337777D858B5FC841F7F9F40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F934241A1056FDE6C80A74D5FE4320D0 /* Build configuration list for PBXNativeTarget "BRYXGradientView-BRYXGradientView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1444E089F88ED20C6A4CCFAEAB034A3 /* Debug */,
+				488C4D0AE4FE9644A9C85B3F951D77AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
