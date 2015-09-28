@@ -12,16 +12,10 @@
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		6148E3C4C436D753D53A599A /* Pods_BRYXGradientView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59D5E7B6CADA6E001208174E /* Pods_BRYXGradientView_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		A894AC643DFE748073882C38 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 511FB00E481E2D5FB222AB9A /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		66F496A61BB9CA79006A9548 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F496A51BB9CA79006A9548 /* GradientView.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0703B0018335268148842CA6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		0A5D217A6670D49CD70A6104 /* Pods-BRYXGradientView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BRYXGradientView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BRYXGradientView_Tests/Pods-BRYXGradientView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		4D94FE8C15D39CBB4220387B /* Pods-BRYXGradientView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BRYXGradientView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-BRYXGradientView_Example/Pods-BRYXGradientView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		511FB00E481E2D5FB222AB9A /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		59D5E7B6CADA6E001208174E /* Pods_BRYXGradientView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BRYXGradientView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* BRYXGradientView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BRYXGradientView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -29,13 +23,7 @@
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		60F8CB14526067946414C67D /* Pods-BRYXGradientView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BRYXGradientView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BRYXGradientView_Tests/Pods-BRYXGradientView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		748F3C93140A1B17227DBDB8 /* Pods-BRYXGradientView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BRYXGradientView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BRYXGradientView_Example/Pods-BRYXGradientView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B859D04C396757B79B72DA04 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		BB0ED14026BB6CDFCF402FB6 /* Pods_BRYXGradientView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BRYXGradientView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE5D74C69BA63B84B49F7449 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		F5F9F4AD3405F1849E905B3A /* BRYXGradientView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BRYXGradientView.podspec; path = ../BRYXGradientView.podspec; sourceTree = "<group>"; };
-		FF75A0479DA5EE5BB1D3BA94 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		66F496A51BB9CA79006A9548 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GradientView.swift; path = ../../GradientView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,8 +31,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6148E3C4C436D753D53A599A /* Pods_BRYXGradientView_Example.framework in Frameworks */,
-				A894AC643DFE748073882C38 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,9 +40,6 @@
 		495693AA204D6071683AA854 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				59D5E7B6CADA6E001208174E /* Pods_BRYXGradientView_Example.framework */,
-				BB0ED14026BB6CDFCF402FB6 /* Pods_BRYXGradientView_Tests.framework */,
-				511FB00E481E2D5FB222AB9A /* Pods.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -64,11 +47,9 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
-				607FACF51AFB993E008FA782 /* Podspec Metadata */,
-				607FACD21AFB9204008FA782 /* Example for BRYXGradientView */,
-				607FACD11AFB9204008FA782 /* Products */,
-				90BD0053CDD959D3EBE2E4E8 /* Pods */,
+				607FACD21AFB9204008FA782 /* BRYXGradientView */,
 				495693AA204D6071683AA854 /* Frameworks */,
+				607FACD11AFB9204008FA782 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,7 +61,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		607FACD21AFB9204008FA782 /* Example for BRYXGradientView */ = {
+		607FACD21AFB9204008FA782 /* BRYXGradientView */ = {
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
@@ -88,9 +69,9 @@
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+				66F496A51BB9CA79006A9548 /* GradientView.swift */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
-			name = "Example for BRYXGradientView";
 			path = BRYXGradientView;
 			sourceTree = "<group>";
 		};
@@ -102,29 +83,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
-			isa = PBXGroup;
-			children = (
-				F5F9F4AD3405F1849E905B3A /* BRYXGradientView.podspec */,
-				BE5D74C69BA63B84B49F7449 /* README.md */,
-				B859D04C396757B79B72DA04 /* LICENSE */,
-			);
-			name = "Podspec Metadata";
-			sourceTree = "<group>";
-		};
-		90BD0053CDD959D3EBE2E4E8 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				748F3C93140A1B17227DBDB8 /* Pods-BRYXGradientView_Example.debug.xcconfig */,
-				4D94FE8C15D39CBB4220387B /* Pods-BRYXGradientView_Example.release.xcconfig */,
-				0A5D217A6670D49CD70A6104 /* Pods-BRYXGradientView_Tests.debug.xcconfig */,
-				60F8CB14526067946414C67D /* Pods-BRYXGradientView_Tests.release.xcconfig */,
-				0703B0018335268148842CA6 /* Pods.debug.xcconfig */,
-				FF75A0479DA5EE5BB1D3BA94 /* Pods.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,12 +90,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "BRYXGradientView_Example" */;
 			buildPhases = (
-				BF9D897D76B1CD737ECA8552 /* Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				5EC10AA42D611834EF2730F9 /* Embed Pods Frameworks */,
-				6871391791B6929ACF6707CF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,54 +149,6 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		5EC10AA42D611834EF2730F9 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6871391791B6929ACF6707CF /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BF9D897D76B1CD737ECA8552 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		607FACCC1AFB9204008FA782 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -249,6 +156,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				66F496A61BB9CA79006A9548 /* GradientView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,26 +266,26 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0703B0018335268148842CA6 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BRYXGradientView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bryx.BRYXGradientView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF75A0479DA5EE5BB1D3BA94 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BRYXGradientView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bryx.BRYXGradientView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

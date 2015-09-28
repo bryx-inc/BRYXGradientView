@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import BRYXGradientView
 
 class ViewController: UIViewController {
 
