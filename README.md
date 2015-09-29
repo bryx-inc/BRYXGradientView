@@ -30,9 +30,11 @@ Then change the colors in the Attributes inspector:
 
 ![Attributes inspector](https://cloud.githubusercontent.com/assets/1874785/10002010/bf41f130-6072-11e5-92e1-9c5074a52568.png)
 
-
 ## Requirements
-Demo project requires iOS 8+, though BRYXGradientView works on iOS 7+.
+Demo project requires iOS 8+, though BRYXGradientView works on iOS 7+
+
+## Installation
+BRYXGradientView is available through CocoaPods and Carthage.
 
 ## Author
 Adam Binsz, adam@adambinsz.com
