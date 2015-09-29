@@ -1,15 +1,15 @@
 //
-//  GradientView.swift
-//  
+//  MyClass.swift
+//  BRYXGradientView
 //
-//  Created by Adam Binsz on 8/7/15.
-//
+//  Created by Adam Binsz on 9/28/15.
+//  Copyright © 2015 Adam Binsz. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
-@IBDesignable class GradientView: UIView {
-    @IBInspectable var topColor: UIColor = UIColor.whiteColor() {
+@IBDesignable public class GradientView: UIView {
+    @IBInspectable public var topColor: UIColor = UIColor.whiteColor() {
         didSet {
             if let _ = gradientLayer.colors?.first {
                 gradientLayer.colors![0] = topColor.CGColor
@@ -18,7 +18,7 @@ import UIKit
             }
         }
     }
-    @IBInspectable var bottomColor: UIColor = UIColor.blackColor() {
+    @IBInspectable public var bottomColor: UIColor = UIColor.blackColor() {
         didSet {
             if let _ = gradientLayer.colors?.last {
                 gradientLayer.colors![gradientLayer.colors!.count - 1] = bottomColor.CGColor
@@ -28,34 +28,34 @@ import UIKit
         }
     }
     
-    init(topColor: UIColor, bottomColor: UIColor) {
+    public init(topColor: UIColor, bottomColor: UIColor) {
         self.topColor = topColor
         self.bottomColor = bottomColor
         super.init(frame: CGRectZero)
         createGradient()
     }
-
-    required init?(coder aDecoder: NSCoder) {
+    
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         createGradient()
     }
     
-    override init(frame: CGRect) {
+    override public init(frame: CGRect) {
         super.init(frame: frame)
         createGradient()
     }
-
+    
     private func createGradient() {
         gradientLayer.colors = [topColor.CGColor, bottomColor.CGColor]
     }
     
-    var gradientLayer: CAGradientLayer {
+    public var gradientLayer: CAGradientLayer {
         get {
             return self.layer as! CAGradientLayer
         }
     }
     
-    override class func layerClass() -> AnyClass {
+    override class public func layerClass() -> AnyClass {
         return CAGradientLayer.self
     }
 }

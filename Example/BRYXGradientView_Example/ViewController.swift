@@ -1,15 +1,16 @@
 //
 //  ViewController.swift
-//  BRYXGradientView
+//  BRYXGradientView_Example
 //
-//  Created by Adam Binsz on 09/21/2015.
-//  Copyright (c) 2015 Adam Binsz. All rights reserved.
+//  Created by Adam Binsz on 9/28/15.
+//  Copyright © 2015 Adam Binsz. All rights reserved.
 //
 
 import UIKit
+import BRYXGradientView
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -26,4 +27,3 @@ class ViewController: UIViewController {
         gradientView.gradientLayer.colors = [UIColor.redColor().CGColor, UIColor.orangeColor().CGColor, UIColor.yellowColor().CGColor]
     }
 }
-

@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  BRYXGradientView
+//  BRYXGradientView_Example
 //
-//  Created by Adam Binsz on 09/21/2015.
-//  Copyright (c) 2015 Adam Binsz. All rights reserved.
+//  Created by Adam Binsz on 9/28/15.
+//  Copyright © 2015 Adam Binsz. All rights reserved.
 //
 
 import UIKit
