@@ -15,7 +15,7 @@
 		66709A621BBA0C900051196D /* BRYXGradientView.h in Headers */ = {isa = PBXBuildFile; fileRef = 66709A611BBA0C900051196D /* BRYXGradientView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		66709A661BBA0C900051196D /* BRYXGradientView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66709A5F1BBA0C900051196D /* BRYXGradientView.framework */; };
 		66709A671BBA0C900051196D /* BRYXGradientView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 66709A5F1BBA0C900051196D /* BRYXGradientView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		66709A711BBA0D370051196D /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66709A701BBA0D370051196D /* GradientView.swift */; settings = {ASSET_TAGS = (); }; };
+		66709A711BBA0D370051196D /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66709A701BBA0D370051196D /* GradientView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -179,9 +179,11 @@
 				TargetAttributes = {
 					66709A441BBA0C830051196D = {
 						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0800;
 					};
 					66709A5E1BBA0C900051196D = {
 						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -363,6 +365,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.adambinsz.BRYXGradientView-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -376,6 +379,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.adambinsz.BRYXGradientView-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -396,6 +400,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -418,6 +423,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.adambinsz.BRYXGradientView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
