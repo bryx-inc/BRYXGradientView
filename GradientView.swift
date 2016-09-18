@@ -9,21 +9,21 @@
 import Foundation
 
 @IBDesignable public class GradientView: UIView {
-    @IBInspectable public var topColor: UIColor = UIColor.whiteColor() {
+    @IBInspectable public var topColor: UIColor = UIColor.white {
         didSet {
             if let _ = gradientLayer.colors?.first {
-                gradientLayer.colors![0] = topColor.CGColor
+                gradientLayer.colors![0] = topColor.cgColor
             } else {
-                gradientLayer.colors = [topColor.CGColor, bottomColor.CGColor]
+                gradientLayer.colors = [topColor.cgColor, bottomColor.cgColor]
             }
         }
     }
-    @IBInspectable public var bottomColor: UIColor = UIColor.blackColor() {
+    @IBInspectable public var bottomColor: UIColor = UIColor.black {
         didSet {
             if let _ = gradientLayer.colors?.last {
-                gradientLayer.colors![gradientLayer.colors!.count - 1] = bottomColor.CGColor
+                gradientLayer.colors![gradientLayer.colors!.count - 1] = bottomColor.cgColor
             } else {
-                gradientLayer.colors = [topColor.CGColor, bottomColor.CGColor]
+                gradientLayer.colors = [topColor.cgColor, bottomColor.cgColor]
             }
         }
     }
@@ -31,7 +31,7 @@ import Foundation
     public init(topColor: UIColor, bottomColor: UIColor) {
         self.topColor = topColor
         self.bottomColor = bottomColor
-        super.init(frame: CGRectZero)
+        super.init(frame: CGRect.zero)
         createGradient()
     }
     
@@ -46,7 +46,7 @@ import Foundation
     }
     
     private func createGradient() {
-        gradientLayer.colors = [topColor.CGColor, bottomColor.CGColor]
+        gradientLayer.colors = [topColor.cgColor, bottomColor.cgColor]
     }
     
     public var gradientLayer: CAGradientLayer {
@@ -55,7 +55,9 @@ import Foundation
         }
     }
     
-    override class public func layerClass() -> AnyClass {
-        return CAGradientLayer.self
+    override public class var layerClass: Swift.AnyClass {
+        get {
+            return CAGradientLayer.self
+        }
     }
 }

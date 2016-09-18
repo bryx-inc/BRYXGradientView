@@ -15,15 +15,15 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         // Create GradientView with simple initializer
-        let gradientView = GradientView(topColor: UIColor.cyanColor(), bottomColor: UIColor.blueColor())
+        let gradientView = GradientView(topColor: UIColor.cyan, bottomColor: UIColor.blue)
         gradientView.frame = view.bounds
         view.addSubview(gradientView)
         
         // Easily change top and bottom colors after intialization
-        gradientView.topColor = UIColor.yellowColor()
-        gradientView.bottomColor = UIColor.orangeColor()
+        gradientView.topColor = UIColor.yellow
+        gradientView.bottomColor = UIColor.orange
         
         // Use more than two colors
-        gradientView.gradientLayer.colors = [UIColor.redColor().CGColor, UIColor.orangeColor().CGColor, UIColor.yellowColor().CGColor]
+        gradientView.gradientLayer.colors = [UIColor.red.cgColor, UIColor.orange.cgColor, UIColor.yellow.cgColor]
     }
 }
