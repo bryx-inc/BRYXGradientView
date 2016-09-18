@@ -9,7 +9,7 @@
 import Foundation
 
 @IBDesignable public class GradientView: UIView {
-    @IBInspectable public var topColor: UIColor = UIColor.white() {
+    @IBInspectable public var topColor: UIColor = UIColor.white {
         didSet {
             if let _ = gradientLayer.colors?.first {
                 gradientLayer.colors![0] = topColor.cgColor
@@ -18,7 +18,7 @@ import Foundation
             }
         }
     }
-    @IBInspectable public var bottomColor: UIColor = UIColor.black() {
+    @IBInspectable public var bottomColor: UIColor = UIColor.black {
         didSet {
             if let _ = gradientLayer.colors?.last {
                 gradientLayer.colors![gradientLayer.colors!.count - 1] = bottomColor.cgColor
@@ -55,7 +55,9 @@ import Foundation
         }
     }
     
-    override class public func layerClass() -> AnyClass {
-        return CAGradientLayer.self
+    override public class var layerClass: Swift.AnyClass {
+        get {
+            return CAGradientLayer.self
+        }
     }
 }
