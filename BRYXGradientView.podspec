@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = "BRYXGradientView"
-    s.version          = "0.1.0"
+    s.version          = "0.2.0"
     s.summary          = "A lightweight gradient view for iOS 7+, written in Swift, with support for Auto Layout and Interface Builder."
     s.homepage         = "https://github.com/bryx-inc/BRYXGradientView"
     s.license          = 'MIT'
